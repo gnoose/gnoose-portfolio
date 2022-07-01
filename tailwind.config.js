@@ -36,9 +36,9 @@ module.exports = {
         400: '#00857F',
       },
       secondary: {
-        DEFAULT: '#0A2540',
-        50: '#D2E3F3',
-        100: '#0A2540',
+        DEFAULT: '#f6ecd3',
+        50: '#d3c5a1',
+        100: '#D3C5A1FF',
       },
       success: {
         DEFAULT: '#74B06F',
