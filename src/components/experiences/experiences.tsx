@@ -8,11 +8,11 @@ export default function Experiences() {
     <div className="py-100 bg-secondary">
       <p className="text-25 text-light-500 font-light text-center mb-50">EXPERIENCES</p>
       <div className="container mx-auto">
-        {personalData.experiences.map((experience, index) => (
+        {personalData.projects.map((experience, index) => (
           <div key={index} className={"w-full md:flex " + (index % 2 === 1 ? "flex-row-reverse" : "")}>
             <div className="basis-2/5 py-50">
               <div className="bg-white w-full p-20">
-                <span className="bg-warning rounded-full py-5 px-15 text-white">{experience.name}</span>
+                <span className="bg-warning rounded-full py-5 px-15 text-white">{experience.title}</span>
                 <p className="text-15 font-bold my-20 text-light-400 px-10">{experience.role} <span className="block md:hidden text-light-300">( {experience.range} )</span></p>
                 <div className="flex flex-wrap">
                   {experience.stacks.map((item, index) => (

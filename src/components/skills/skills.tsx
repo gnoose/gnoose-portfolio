@@ -13,6 +13,7 @@ export default function Skills() {
               <img className="h-50 w-50 mb-10" src={item.icon} alt={item.name}/>
               <div className="text-center max-w-100">
                 <p className="text-white truncate">{item.name}</p>
+                <p className="text-white truncate">~ {item.age} years ~</p>
               </div>
             </div>
           ))}
